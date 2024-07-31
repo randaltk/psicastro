@@ -7,6 +7,7 @@ import {
   AiOutlinePhone,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
+import { TfiAgenda } from "react-icons/tfi";
 export default function Home() {
   return (
     <main>
@@ -79,8 +80,8 @@ export default function Home() {
                 <ul className="space-y-6">
                   <li className="flex items-center space-x-4">
                     <img
-                      width={30}
-                      height={30}
+                      width={22}
+                      height={22}
                       alt="Localizacao"
                       src="https://res.cloudinary.com/aguadeira/image/upload/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
                     />
@@ -95,12 +96,7 @@ export default function Home() {
                     <span>(11) 99452-8773</span>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <Image
-                      src="/icons/calendar.svg"
-                      alt="Atendimentos"
-                      width={24}
-                      height={24}
-                    />
+                    <TfiAgenda className="mr-2 text-lg" />
                     <span>
                       Disponibilidade para atendimentos presenciais nas regiões:
                       Morumbi, Butantã, Pinheiros, Paulista e Higienópolis.
