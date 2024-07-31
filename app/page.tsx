@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import {
+  AiOutlineMail,
+  AiOutlinePhone,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
 export default function Home() {
   return (
     <main>
@@ -72,11 +78,11 @@ export default function Home() {
               <div className="flex-1">
                 <ul className="space-y-6">
                   <li className="flex items-center space-x-4">
-                    <Image
-                      src="/icons/location.svg"
-                      alt="Localização"
-                      width={24}
-                      height={24}
+                    <img
+                      width={30}
+                      height={30}
+                      alt="Localizacao"
+                      src="https://res.cloudinary.com/aguadeira/image/upload/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
                     />
                     <span>
                       Rua Barata Ribeiro, 490, conj 104
@@ -85,12 +91,7 @@ export default function Home() {
                     </span>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <Image
-                      src="/icons/phone.svg"
-                      alt="Telefone"
-                      width={24}
-                      height={24}
-                    />
+                    <AiOutlinePhone className="mr-2 text-lg" />
                     <span>(11) 99452-8773</span>
                   </li>
                   <li className="flex items-center space-x-4">
@@ -164,41 +165,26 @@ export default function Home() {
             Rua Barata Ribeiro, 490, conj 104, Bela Vista, São Paulo SP
           </p>
           <p className="text-sm text-gray-600 mb-2">
-            Copyright © 2024 psicologamaritiemi
+            Copyright © 2024 psicastro
           </p>
           <div className="flex justify-center space-x-4">
             <a
               href="https://instagram.com"
               className="text-black transition-all duration-300 hover:text-[#a52a2a]"
             >
-              <Image
-                src="/icons/instagram.svg"
-                alt="Instagram"
-                width={24}
-                height={24}
-              />
+              <FaInstagram className="mr-2 text-lg text-pink-500" />
             </a>
             <a
-              href="https://wa.me/5511994528773"
+              href="https://wa.me/5511974528773"
               className="text-black transition-all duration-300 hover:text-[#a52a2a]"
             >
-              <Image
-                src="/icons/whatsapp.svg"
-                alt="WhatsApp"
-                width={24}
-                height={24}
-              />
+              <AiOutlineWhatsApp className="mr-2 text-lg text-green-500" />
             </a>
             <a
               href="mailto:contato@psicologamaritiemi.com"
               className="text-black transition-all duration-300 hover:text-[#a52a2a]"
             >
-              <Image
-                src="/icons/email.svg"
-                alt="E-mail"
-                width={24}
-                height={24}
-              />
+              <AiOutlineMail className="mr-2 text-lg" />
             </a>
           </div>
         </div>
