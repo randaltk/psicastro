@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <header className="w-full py-8 bg-[#FDFBFD] fixed top-0 z-10 transition-all duration-300">
+    <main>
+      <header className="w-full py-12 bg-[#FDFBFD] fixed top-0 z-10 transition-all duration-300">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-4xl font-bold text-black">Logo</div>
           <nav className="space-x-8">
