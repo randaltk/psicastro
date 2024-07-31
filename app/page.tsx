@@ -1,40 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <header className="w-full py-12 bg-[#FDFBFD] fixed top-0 z-10 transition-all duration-300">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-4xl font-bold text-black">Logo</div>
-          <nav className="space-x-8">
-            <a
-              href="#home"
-              className="text-2xl text-black transition-all duration-300 hover:text-[#a52a2a]"
-            >
-              Home
-            </a>
-            <a
-              href="#atendimentos"
-              className="text-2xl text-black transition-all duration-300 hover:text-[#a52a2a]"
-            >
-              Atendimentos
-            </a>
-            <a
-              href="#saiba-mais"
-              className="text-2xl text-black transition-all duration-300 hover:text-[#a52a2a]"
-            >
-              Saiba Mais
-            </a>
-            <a
-              href="#contato"
-              className="text-2xl text-black transition-all duration-300 hover:text-[#a52a2a]"
-            >
-              Contato
-            </a>
-          </nav>
-        </div>
-      </header>
-
       <section
         id="banner"
         className="flex flex-col items-center justify-center w-full py-16 min-h-screen"
@@ -50,8 +19,10 @@ export default function Home() {
             />
           </div>
           <div className="w-full md:w-1/2 text-center md:text-left space-y-4 px-4">
-            <h2 className="text-5xl font-bold">Castro</h2>
-            <p className="text-3xl font-semibold">PSICÓLOGA - CRP 06/192150</p>
+            <h2 className="text-5xl font-bold custom-h2 mb-6">Castro</h2>
+            <p className="text-3xl font-semibold custom-h2 mb-6">
+              PSICÓLOGA - CRP 06/192150
+            </p>
             <p className="text-xl">
               Orientada pela teoria Analítico Comportamental, ofereço um espaço
               de acolhimento e mudança. Percebo que começar processos
@@ -78,9 +49,7 @@ export default function Home() {
         className="w-full py-16 bg-[#FDFBFD] flex items-center justify-center"
       >
         <div className="container mx-auto bg-white p-12 shadow-lg rounded-lg text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Atendimentos Presencial e Online
-          </h2>
+          <h2 className="custom-h2 mb-6">Atendimentos Presencial e Online</h2>
           <p className="text-xl">
             Em um primeiro encontro, gosto de oferecer uma entrevista para
             esclarecer qualquer tipo de dúvida. Essa opção não é obrigatória,
@@ -96,7 +65,9 @@ export default function Home() {
       >
         <div className="flex-1 p-8">
           <div className="container mx-auto bg-white p-8 shadow-lg rounded-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center">Contato</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center custom-h2 mb-6">
+              Contato
+            </h2>
             <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8">
               <div className="flex-1">
                 <ul className="space-y-6">

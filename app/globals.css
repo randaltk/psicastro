@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+.custom-h2 {
+  color: #FFAC4D;
+  font-family: "Raleway", Sans-serif;
+  font-size: clamp(1.8rem, 1.7077rem + 0.4103vw, 2rem);
+  font-weight: 600;
+}
