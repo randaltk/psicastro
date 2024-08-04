@@ -18,14 +18,14 @@ export default function Home() {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
           <div className="w-full md:w-1/2 h-96 relative">
             <Image
-              src="https://via.placeholder.com/300"
-              alt="Mariana Tiemi"
+              src="/pessoa.jpg"
+              alt="Psicastro"
               layout="fill"
               objectFit="cover"
               className="rounded-full"
             />
           </div>
-          <div className="w-full md:w-1/2 text-center md:text-left space-y-4 px-4">
+          <div className="w-full md:w-1/2 text-center md:text-left space-y-6 px-6">
             <h2 className="text-5xl font-bold custom-h2 mb-6">Castro</h2>
             <p className="text-3xl font-semibold custom-h2 mb-6">
               PSICÓLOGA - CRP 06/192150
@@ -41,12 +41,12 @@ export default function Home() {
               comprometida, ajudando as pessoas a construir o caminho entre o
               que vivem e o que desejam viver.
             </p>
-            <a
-              href="#saiba-mais"
-              className="inline-block px-6 py-3 border border-black text-black font-semibold text-lg rounded transition-all duration-300 hover:bg-[#a52a2a] hover:text-white"
+            <Link
+              href="/saiba-mais"
+              className="inline-block px-6 py-3 border border-black text-black font-semibold text-lg rounded transition-all duration-300 hover:bg-[#B2572B] hover:text-white"
             >
               Saiba Mais
-            </a>
+            </Link>
           </div>
         </div>
       </section>

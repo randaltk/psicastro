@@ -5,7 +5,9 @@ const About: React.FC = () => {
   return (
     <div className="min-h-screen p-8">
       <div className="container mx-auto">
-        <h1 className="text-4xl font-bold mb-8 text-center">Sobre Castro</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center text-[#B2572B]">
+          Sobre Psicastro
+        </h1>
 
         <section className="mb-12">
           <h2 className="text-3xl font-semibold custom-h2 mb-6">
