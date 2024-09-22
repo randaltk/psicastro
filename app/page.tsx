@@ -18,10 +18,11 @@ export default function Home() {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
           <div className="w-full md:w-1/2 h-96 relative">
             <Image
-              src="/pessoa.jpg"
+              src="/psicastrophoto.jpeg"
               alt="Psicastro"
               layout="fill"
               objectFit="cover"
+              objectPosition="center top" // Ajuste aqui
               className="rounded-full"
             />
           </div>
