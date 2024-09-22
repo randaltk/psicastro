@@ -22,7 +22,7 @@ export default function Home() {
               alt="Psicastro"
               layout="fill"
               objectFit="cover"
-              objectPosition="center top" // Ajuste aqui
+              objectPosition="center top"
               className="rounded-full"
             />
           </div>
